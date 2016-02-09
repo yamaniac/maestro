@@ -26,8 +26,26 @@
                     Welcome to Modern Business
                 </h1>
             </div>
+<div class="row">
 
-            <div class="col-md-6 pull-right">
+ <div class="col-md-5 pull-right">
+ <div class="header_contact">
+ <ul>
+ <li>
+<i class="fa-1x fa fa-phone radius"></i>
+123456-7890
+  
+ </li>
+ 
+ <li><i class="fa-1x fa fa-envelope-o"></i>
+info@maestro.com
+ </li>
+ </ul>
+ </div>
+ 
+ </div>
+
+            <div class="col-md-6 pull-right menu">
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
@@ -97,6 +115,7 @@
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
+            </div>
             </div>
         </div>
 </div>
