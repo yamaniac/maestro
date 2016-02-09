@@ -27,6 +27,12 @@ h1{
     margin: 6px 0 0!important;
 }
 
+.open_timings{
+    color:#ffffff;
+    margin-top: 17px;
+    
+}
+
 .menu{
     margin-top:10px;
     background-color: #9D462F;
@@ -64,6 +70,11 @@ i.radius{
     padding-left: 11px;
     padding-right: 14px;
 }
+
+.descp h2{
+    text-align: center;;
+}
+
 .img-portfolio {
     margin-bottom: 30px;
 }

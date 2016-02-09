@@ -11,10 +11,11 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
-                </button>
+                </button></div>
                 <a class="navbar-brand" href="index.html">Request Call Back</a>
-            </div>
-
+               
+            
+ <P class="open_timings pull-right">Open Monday to Saturday 10:00PM to 8:00PM</P>
         </div>
         <!-- /.container -->
     </nav>
@@ -23,7 +24,7 @@
         <div class="row">
             <div class="col-lg-2">
                 <h1 class="page-header">
-                    Welcome to Modern Business
+                   Maestro - Real Estate
                 </h1>
             </div>
 <div class="row">
@@ -164,52 +165,18 @@ info@maestro.com
     <!-- Page Content -->
     <div class="container">
 
-        <!-- Marketing Icons Section -->
-        <div class="row">
-            <div class="col-lg-12">
-    
-            </div>
-            <div class="col-md-4">
-                <div class="panel panel-default">
-                    <div class="panel-heading">
-                        <h4><i class="fa fa-fw fa-check"></i> Bootstrap v3.2.0</h4>
-                    </div>
-                    <div class="panel-body">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque, optio corporis quae nulla aspernatur in alias at numquam rerum ea excepturi expedita tenetur assumenda voluptatibus eveniet incidunt dicta nostrum quod?</p>
-                        <a href="#" class="btn btn-default">Learn More</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="panel panel-default">
-                    <div class="panel-heading">
-                        <h4><i class="fa fa-fw fa-gift"></i> Free &amp; Open Source</h4>
-                    </div>
-                    <div class="panel-body">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque, optio corporis quae nulla aspernatur in alias at numquam rerum ea excepturi expedita tenetur assumenda voluptatibus eveniet incidunt dicta nostrum quod?</p>
-                        <a href="#" class="btn btn-default">Learn More</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="panel panel-default">
-                    <div class="panel-heading">
-                        <h4><i class="fa fa-fw fa-compass"></i> Easy to Use</h4>
-                    </div>
-                    <div class="panel-body">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque, optio corporis quae nulla aspernatur in alias at numquam rerum ea excepturi expedita tenetur assumenda voluptatibus eveniet incidunt dicta nostrum quod?</p>
-                        <a href="#" class="btn btn-default">Learn More</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- /.row -->
+
 
         <!-- Portfolio Section -->
+        <div class="container">
         <div class="row">
-            <div class="col-lg-12">
-                <h2 class="page-header">Portfolio Heading</h2>
+            <div class="col-md-12 descp">
+                <h2 class="page-header center-block descp">Our Projects</h2>
             </div>
+            </div>
+            </div>
+        <div class="row">
+
             <div class="col-md-4 col-sm-6">
                 <a href="portfolio-item.html">
                     <img class="img-responsive img-portfolio img-hover" src="http://placehold.it/700x450" alt="">
