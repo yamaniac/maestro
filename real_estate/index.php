@@ -14,6 +14,20 @@
                 </button>
                 <a class="navbar-brand" href="index.html">Request Call Back</a>
             </div>
+
+        </div>
+        <!-- /.container -->
+    </nav>
+
+<div class="container">
+        <div class="row">
+            <div class="col-lg-2">
+                <h1 class="page-header">
+                    Welcome to Modern Business
+                </h1>
+            </div>
+
+            <div class="col-md-6 pull-right">
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
@@ -83,28 +97,6 @@
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container -->
-    </nav>
-
-<div class="container">
-        <div class="row">
-            <div class="col-lg-2">
-                <h1 class="page-header">
-                    Welcome to Modern Business
-                </h1>
-            </div>
-
-            <div class="col-md-4 right">
-                <div class="panel panel-default">
-                    <div class="panel-heading">
-                        <h4><i class="fa fa-fw fa-compass"></i> Easy to Use</h4>
-                    </div>
-                    <div class="panel-body">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque, optio corporis quae nulla aspernatur in alias at numquam rerum ea excepturi expedita tenetur assumenda voluptatibus eveniet incidunt dicta nostrum quod?</p>
-                        <a href="#" class="btn btn-default">Learn More</a>
-                    </div>
-                </div>
             </div>
         </div>
 </div>
@@ -156,9 +148,7 @@
         <!-- Marketing Icons Section -->
         <div class="row">
             <div class="col-lg-12">
-                <h1 class="page-header">
-                    Welcome to Modern Business
-                </h1>
+    
             </div>
             <div class="col-md-4">
                 <div class="panel panel-default">
