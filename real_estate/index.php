@@ -1,95 +1,5 @@
 <?php include 'header.php'; ?>
-  <!-- Navigation -->
-    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-        <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
-
-                <a class="navbar-brand" href="index.html">Request Call Back</a>
-               
-            
- <P class="open_timings pull-right">Open Monday to Saturday 10:00PM to 8:00PM</P>
-        </div>
-        <!-- /.container -->
-    </nav>
-
-<div class="container">
-        <div class="row">
-            <div class="col-md-2">
-                <h1 class="page-header">
-                   Maestro - Real Estate
-                </h1>
-            </div>
-<div class="row">
-
- <div class="col-md-5 pull-right">
- <div class="header_contact">
- <ul>
- <li>
-<i class="fa-1x fa fa-phone radius"></i>
-123456-7890
-  
- </li>
- 
- <li><i class="fa-1x fa fa-envelope-o"></i>
-info@maestro.com
- </li>
- </ul>
- </div>
- 
- </div>
-
-            <div class="col-md-5 pull-right menu">
-                        <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button></div>
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li>
-                        <a href="Home.php">Home</a>
-                    </li>
-                    <li>
-                        <a href="#">About Us</a>
-                    </li>
-                    
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Projects <b class="caret"></b></a>
-                        <ul class="dropdown-menu">
-                            <li>
-                                <a href="portfolio-1-col.html">1 Column Portfolio</a>
-                            </li>
-                            <li>
-                                <a href="portfolio-2-col.html">2 Column Portfolio</a>
-                            </li>
-                            <li>
-                                <a href="portfolio-3-col.html">3 Column Portfolio</a>
-                            </li>
-                            <li>
-                                <a href="portfolio-4-col.html">4 Column Portfolio</a>
-                            </li>
-                            <li>
-                                <a href="portfolio-item.html">Single Portfolio Item</a>
-                            </li>
-                        </ul>
-                    </li>
-             <li>
-                        <a href="#">News</a>
-                    </li>
-                    <li>
-                        <a href="#">Contact</a>
-                    </li>
-                   
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
-            </div>
-            </div>
-        </div>
-</div>
+<?php include 'menu.php'; ?>
 
 <!-- Header Carousel -->
 <header class="carousel slide" id="myCarousel">
@@ -222,40 +132,94 @@ info@maestro.com
 		</div>
 	</div>
 	<div class="row top-buffer">
-	 <div class="col-md-4 col-sm-6">
-                <a href="portfolio-item.html"><img alt="" class=
-                "img-responsive img-portfolio img-hover" src=
+	 <div class="col-md-4 col-sm-6 data-os-animation="fadeInUp" data-os-animation-delay="0.10s "> 
+     <div class="wrapper">
+     <div class="project_details ">
+     <ul>
+     <li class="pull-left">Project Name</li>
+     <li class="pull-right"><i class="fa fa-map-marker"></i>
+ Location</li>
+     </ul>
+      </div>
+               <a href="portfolio-item.html"><img alt="" class=
+                "img-responsive img-portfolio img-hover " src=
                 "http://placehold.it/700x450"></a>
+                   </div>
             </div>
 	 <div class="col-md-4 col-sm-6">
-                <a href="portfolio-item.html"><img alt="" class=
+                <div class="wrapper">
+     <div class="project_details">
+     <ul>
+     <li class="pull-left">Project Name</li>
+     <li class="pull-right"><i class="fa fa-map-marker"></i>
+ Location</li>
+     </ul>
+      </div>
+               <a href="portfolio-item.html"><img alt="" class=
                 "img-responsive img-portfolio img-hover" src=
                 "http://placehold.it/700x450"></a>
+                   </div>
             </div>
 	 <div class="col-md-4 col-sm-6">
-                <a href="portfolio-item.html"><img alt="" class=
+               <div class="wrapper">
+     <div class="project_details">
+     <ul>
+     <li class="pull-left">Project Name</li>
+     <li class="pull-right"><i class="fa fa-map-marker"></i>
+ Location</li>
+     </ul>
+      </div>
+               <a href="portfolio-item.html"><img alt="" class=
                 "img-responsive img-portfolio img-hover" src=
                 "http://placehold.it/700x450"></a>
+                   </div>
             </div>
 	 <div class="col-md-4 col-sm-6">
-                <a href="portfolio-item.html"><img alt="" class=
+                 <div class="wrapper">
+     <div class="project_details">
+     <ul>
+     <li class="pull-left">Project Name</li>
+     <li class="pull-right"><i class="fa fa-map-marker"></i>
+ Location</li>
+     </ul>
+      </div>
+               <a href="portfolio-item.html"><img alt="" class=
                 "img-responsive img-portfolio img-hover" src=
                 "http://placehold.it/700x450"></a>
+                   </div>
             </div>
 	 <div class="col-md-4 col-sm-6">
-                <a href="portfolio-item.html"><img alt="" class=
+               <div class="wrapper">
+     <div class="project_details">
+     <ul>
+     <li class="pull-left">Project Name</li>
+     <li class="pull-right"><i class="fa fa-map-marker"></i>
+ Location</li>
+     </ul>
+      </div>
+               <a href="portfolio-item.html"><img alt="" class=
                 "img-responsive img-portfolio img-hover" src=
                 "http://placehold.it/700x450"></a>
+                   </div>
             </div>
 	 <div class="col-md-4 col-sm-6">
-                <a href="portfolio-item.html"><img alt="" class=
+                <div class="wrapper">
+     <div class="project_details">
+     <ul>
+     <li class="pull-left">Project Name</li>
+     <li class="pull-right"><i class="fa fa-map-marker"></i>
+ Location</li>
+     </ul>
+      </div>
+               <a href="portfolio-item.html"><img alt="" class=
                 "img-responsive img-portfolio img-hover" src=
                 "http://placehold.it/700x450"></a>
+                   </div>
             </div>
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12 center-block-item">
-					<a class="btn btn-danger" href="#">View All</a>
+					<a class="btn btn-danger btn-lg hvr-grow-shadow" href="#">View All Projects</a>
 				</div>
 			</div>
 		</div>
@@ -353,7 +317,7 @@ info@maestro.com
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
          
             </div>
-         
+    
             <div class="row">
          
             <div class="col-md-4 news">
@@ -371,7 +335,6 @@ info@maestro.com
             
             
             
-                      
          
             <div class="col-md-4 news">
             <a href="blog-post.html">
@@ -386,7 +349,7 @@ info@maestro.com
                 
             </div>
             
-           
+            
             
                      
             <div class="col-md-4 news">
@@ -410,7 +373,7 @@ info@maestro.com
         
         
 </div>
-
+<div  class="top-buffer"></div>
 <div class="container">
 	<div class="row">
 		<div class="col-md-12 descp">
@@ -425,6 +388,13 @@ info@maestro.com
 
 <div class="top-buffer">
 </div>
+<div class="wrapper">
 <div id="map">
+</div>
+
+<div class="contact_placeholder">
+
+</div>
+
 </div>
 <?php include 'footer.php';?>

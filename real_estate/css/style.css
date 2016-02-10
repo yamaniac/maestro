@@ -1,9 +1,16 @@
 html,body {
 	height:100%;
 }
+
+@font-face {
+    font-family: museosans;
+    src: url(../fonts/MUSEOSANS.woff);
+}
+
 body {
 	padding-top:50px;
 	/* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+    font-family:museosans;
 }
 
 a {
@@ -91,13 +98,13 @@ i.radius {
 	border-top:1px solid #cccccc;
 	margin:0 auto;
 	text-align:center;
-	width:500px;
+	width:40%;
 }
 
 .prpty_hglights{
     background-color: #000000;
     margin: 10px;
-    opacity: 0.8;
+    opacity: 0.65;
     padding: 13px;
 }
 
@@ -114,6 +121,42 @@ i.radius {
     list-style: outside none none;
     margin: 3px 0 0;
     padding: 0;
+}
+
+.project_details{
+    background: #000000 none repeat scroll 0 0;
+    bottom: 0;
+    opacity: 0.75;
+    padding: 10px;
+    position: absolute;
+    width: 100%;
+}
+
+.project_details ul {
+    margin:0px!important;
+    padding:0px!important;
+}
+
+.project_details ul li{
+    list-style:none;
+    float:left;
+    color:#ffffff;
+}
+
+.contact_placeholder{
+    background: #000000 none repeat scroll 0 0;
+    bottom: 0;
+    height: 93%;
+    margin-bottom: 12px;
+    opacity: 0.75;
+    position: absolute;
+    width: 20%;
+    right: 369px;
+}
+
+
+.wrapper{
+    position:relative;
 }
 
 .top-buffer {
@@ -172,7 +215,7 @@ i.radius {
 .center-align {
 	margin:0 auto;
 	text-align:center;
-	width:650px;
+	width:90%;
 }
 #map {
 	width:100%;
@@ -191,6 +234,11 @@ i.radius {
     padding:3px;
     margin-right:5px;
 }
+
+.news p{
+    margin:0px!important;
+}
+
 
 .footer{
     background-color: #000000;
@@ -262,6 +310,9 @@ header.carousel .fill {
 		margin-top: 0;
 	}
     
+    .header_contact{
+        display:none;
+    }
     .open_timings{
         display:none;
     }
@@ -270,9 +321,9 @@ header.carousel .fill {
         display:none;
     }
     
-      .menu {
-    margin-top: -165px;
-  }
+.navbar-toggle{
+     margin-top: -46px;
+}
   
   .navbar {
     display:none;
@@ -283,7 +334,16 @@ display:none;
 }
 
 .icon-bar{
-  background-color: #ffffff !important;
+  background-color: #000000 !important;
+}
+
+#adj{
+    float: none!important;
+}
+
+.news img{
+    
+    display:none;
 }
     
 }

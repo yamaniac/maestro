@@ -24,7 +24,7 @@ Copyrights 2016 - Maestrorealestate.com. All Rights Reserved.
  <img src="images/credai.jpg" width="96" height="22" />
     </div>
 
-<div class="col-md-2"> Powered By:  <img src="images/pacesoft.jpg" width="24" height="24" /> </div>    
+<div class="col-md-2"> Powered By: <a href="#" title="Pacesoft Technologies"> <img src="images/pacesoft.jpg" width="24" height="24" /></a> </div>    
   
   </div>
 </div>
@@ -32,9 +32,9 @@ Copyrights 2016 - Maestrorealestate.com. All Rights Reserved.
 
 <!-- /.container -->
 <!-- core files  needed to run this site smoothly -->
-<script src="js/jquery.js"></script> 
-<script src="js/bootstrap.min.js"></script>
-<!--<script src="https://maps.googleapis.com/maps/api/js?callback=initMap" async defer>
+<script src="js/jquery.js" type="text/javascript"></script> 
+<script src="js/bootstrap.min.js" type="text/javascript"></script>
+<script src="https://maps.googleapis.com/maps/api/js?callback=initMap" async defer>
         </script>
 <script>
   function initMap() {
