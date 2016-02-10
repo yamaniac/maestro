@@ -1,117 +1,96 @@
 <?php include 'header.php'; ?>
-<!DOCTYPE html>
-<html>
-<head>
-<title>
-</title>
-</head>
-<body>
-<!-- Navigation -->
-<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+  <!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+
+                <a class="navbar-brand" href="index.html">Request Call Back</a>
+               
+            
+ <P class="open_timings pull-right">Open Monday to Saturday 10:00PM to 8:00PM</P>
+        </div>
+        <!-- /.container -->
+    </nav>
+
 <div class="container">
-	<!-- Brand and toggle get grouped for better mobile display -->
-	<div class="navbar-header">
-		<button class="navbar-toggle" data-target="#bs-example-navbar-collapse-1" data-toggle="collapse" type="button"><span class="sr-only">Toggle navigation</span>
-		<span class="icon-bar"></span><span class="icon-bar"></span>
-		<span class="icon-bar"></span></button>
-	</div>
-	<a class="navbar-brand" href="index.html">Request Call Back</a>
-	<p class="open_timings pull-right">
-		Open Monday to Saturday 10:00PM to 8:00PM
-	</p>
+        <div class="row">
+            <div class="col-md-2">
+                <h1 class="page-header">
+                   Maestro - Real Estate
+                </h1>
+            </div>
+<div class="row">
+
+ <div class="col-md-5 pull-right">
+ <div class="header_contact">
+ <ul>
+ <li>
+<i class="fa-1x fa fa-phone radius"></i>
+123456-7890
+  
+ </li>
+ 
+ <li><i class="fa-1x fa fa-envelope-o"></i>
+info@maestro.com
+ </li>
+ </ul>
+ </div>
+ 
+ </div>
+
+            <div class="col-md-5 pull-right menu">
+                        <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button></div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="Home.php">Home</a>
+                    </li>
+                    <li>
+                        <a href="#">About Us</a>
+                    </li>
+                    
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Projects <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="portfolio-1-col.html">1 Column Portfolio</a>
+                            </li>
+                            <li>
+                                <a href="portfolio-2-col.html">2 Column Portfolio</a>
+                            </li>
+                            <li>
+                                <a href="portfolio-3-col.html">3 Column Portfolio</a>
+                            </li>
+                            <li>
+                                <a href="portfolio-4-col.html">4 Column Portfolio</a>
+                            </li>
+                            <li>
+                                <a href="portfolio-item.html">Single Portfolio Item</a>
+                            </li>
+                        </ul>
+                    </li>
+             <li>
+                        <a href="#">News</a>
+                    </li>
+                    <li>
+                        <a href="#">Contact</a>
+                    </li>
+                   
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+            </div>
+            </div>
+        </div>
 </div>
-<!-- /.container -->
-</nav>
-<div class="container">
-	<div class="row">
-		<div class="col-lg-2">
-			<h1 class="page-header">Maestro - Real Estate</h1>
-		</div>
-		<div class="row">
-			<div class="col-md-5 pull-right">
-				<div class="header_contact">
-					<ul>
-						<li><i class="fa-1x fa fa-phone radius"></i>
-						123456-7890</li>
-						<li><i class="fa-1x fa fa-envelope-o"></i>
-						info@maestro.com</li>
-					</ul>
-				</div>
-			</div>
-			<div class="col-md-6 pull-right menu">
-				<!-- Collect the nav links, forms, and other content for toggling -->
-				<div class="collapse navbar-collapse" id=eventObject "bs-example-navbar-collapse-1">
-					<ul class="nav navbar-nav navbar-right">
-						<li>
-						<a href="about.html">About</a>
-						</li>
-						<li>
-						<a href="services.html">Services</a>
-						</li>
-						<li>
-						<a href="contact.html">Contact</a>
-						</li>
-						<li class="dropdown">
-						<a class="dropdown-toggle" data-toggle= "dropdown" href="#">Portfolio <b class= "caret"></b></a>
-						<ul class="dropdown-menu">
-							<li>
-							<a href="portfolio-1-col.html">1 Column Portfolio</a>
-							</li>
-							<li>
-							<a href="portfolio-2-col.html">2 Column Portfolio</a>
-							</li>
-							<li>
-							<a href="portfolio-3-col.html">3 Column Portfolio</a>
-							</li>
-							<li>
-							<a href="portfolio-4-col.html">4 Column Portfolio</a>
-							</li>
-							<li>
-							<a href="portfolio-item.html">Single Portfolio Item</a>
-							</li>
-						</ul>
-						</li>
-						<li class="dropdown">
-						<a class="dropdown-toggle" data-toggle=eventObject "dropdown" href="#">Blog <b class=eventObject "caret"></b></a>
-						<ul class="dropdown-menu">
-							<li>
-							<a href="blog-home-1.html">Blog Home 1</a>
-							</li>
-							<li>
-							<a href="blog-home-2.html">Blog Home 2</a>
-							</li>
-							<li>
-							<a href="blog-post.html">Blog Post</a>
-							</li>
-						</ul>
-						</li>
-						<li class="dropdown">
-						<a class="dropdown-toggle" data-toggle=eventObject "dropdown" href="#">Other Pages <b class=eventObject "caret"></b></a>
-						<ul class="dropdown-menu">
-							<li>
-							<a href="full-width.html">Full Width Page</a>
-							</li>
-							<li>
-							<a href="sidebar.html">Sidebar Page</a>
-							</li>
-							<li>
-							<a href="faq.html">FAQ</a>
-							</li>
-							<li>
-							<a href="404.html">404</a>
-							</li>
-							<li>
-							<a href="pricing.html">Pricing Table</a>
-							</li>
-						</ul>
-						</li>
-					</ul>
-				</div>
-				<!-- /.navbar-collapse -->
-			</div>
-		</div>
-	</div>
-</div>
+
 <!-- Header Carousel -->
 <header class="carousel slide" id="myCarousel">
 <!-- Indicators -->
@@ -128,9 +107,27 @@
 
 <div class="carousel-inner">
             <div class="item active">
-                <div class="fill" style=
-                "background-image:url('http://placehold.it/1900x1080&text=Slide One');">
+                <div class="fill" style="background-image:url('http://placehold.it/1900x1080&text=Slide One');">
+<div class="container">
+ <div class="row">
+<div class="col-md-5 prpty_hglights">
+<ul>
+<li><i class="fa fa-check-circle-o"> </i> Lorem Ipsum is simply dummy text of the printing</li>
+<li><i class="fa fa-check-circle-o"> </i> Lorem Ipsum is simply dummy text of the printing</li>
+<li><i class="fa fa-check-circle-o"> </i> Lorem Ipsum is simply dummy text of the printing</li>
+<li><i class="fa fa-check-circle-o"> </i> Lorem Ipsum is simply dummy text of the printing</li>
+<li><i class="fa fa-check-circle-o"> </i> Lorem Ipsum is simply dummy text of the printing</li>
+<li><i class="fa fa-check-circle-o"> </i> Lorem Ipsum is simply dummy text of the printing</li>
 
+</ul>
+
+
+</div>
+ 
+ </div>
+
+
+</div>
                 </div>
 
 
@@ -143,7 +140,26 @@
             <div class="item">
                 <div class="fill" style=
                 "background-image:url('http://placehold.it/1900x1080&text=Slide Two');">
+<div class="container">
+ <div class="row">
+<div class="col-md-5 prpty_hglights">
+<ul>
+<li><i class="fa fa-check-circle-o"> </i> Lorem Ipsum is simply dummy text of the printing</li>
+<li><i class="fa fa-check-circle-o"> </i> Lorem Ipsum is simply dummy text of the printing</li>
+<li><i class="fa fa-check-circle-o"> </i> Lorem Ipsum is simply dummy text of the printing</li>
+<li><i class="fa fa-check-circle-o"> </i> Lorem Ipsum is simply dummy text of the printing</li>
+<li><i class="fa fa-check-circle-o"> </i> Lorem Ipsum is simply dummy text of the printing</li>
+<li><i class="fa fa-check-circle-o"> </i> Lorem Ipsum is simply dummy text of the printing</li>
 
+</ul>
+
+
+</div>
+ 
+ </div>
+
+
+</div>
                 </div>
 
 
@@ -156,7 +172,26 @@
             <div class="item">
                 <div class="fill" style=
                 "background-image:url('http://placehold.it/1900x1080&text=Slide Three');">
+<div class="container">
+ <div class="row">
+<div class="col-md-5 prpty_hglights">
+<ul>
+<li><i class="fa fa-check-circle-o"> </i> Lorem Ipsum is simply dummy text of the printing</li>
+<li><i class="fa fa-check-circle-o"> </i> Lorem Ipsum is simply dummy text of the printing</li>
+<li><i class="fa fa-check-circle-o"> </i> Lorem Ipsum is simply dummy text of the printing</li>
+<li><i class="fa fa-check-circle-o"> </i> Lorem Ipsum is simply dummy text of the printing</li>
+<li><i class="fa fa-check-circle-o"> </i> Lorem Ipsum is simply dummy text of the printing</li>
+<li><i class="fa fa-check-circle-o"> </i> Lorem Ipsum is simply dummy text of the printing</li>
 
+</ul>
+
+
+</div>
+ 
+ </div>
+
+
+</div>
                 </div>
 
 
@@ -257,8 +292,8 @@
 								<div class="test_owner">
 									<img src="images/man.jpg" class="testimonialimg img-responsive pull-left" />
 									<p class="testowner">
-										Manish R 
-
+									<i>	Manish R </i>
+<br />
 										<small>Owner of apartment</small>
 									</p>
 								</div>
@@ -392,58 +427,4 @@
 </div>
 <div id="map">
 </div>
-<div class="footer">
-<div class="container">
- 
-  <div class="row">
-    <div class="col-md-4 buffer-text">
-    
-Copyrights 2016 - Maestrorealestate.com. All Rights Reserved.
-    </div>
-    
-        <div class="col-md-4 buffer-text">
-<ul>
-<li>Home  </li>
-<li> About Us</li>
-<li>Projects</li>
-<li>testimonials</li>
-<li>Contact Us </li>
-
-
-</ul>    
-
-    </div>
-    
-<div class="col-md-2">
- <img src="images/credai.jpg" width="96" height="22" />
-    </div>
-
-<div class="col-md-2"> Powered By <img src="images/pacesoft.jpg" width="24" height="24" /> </div>    
-  
-  </div>
-</div>
-</div>
-
-<!-- /.container -->
-<!-- core files  needed to run this site smoothly -->
-<script src="js/jquery.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<script src="https://maps.googleapis.com/maps/api/js?callback=initMap" async defer>
-        </script>
-<script>
-  function initMap() {
-    var mapDiv = document.getElementById('map');
-    var map = new google.maps.Map(mapDiv, {
-      center: {lat: 44.540, lng: -78.546},
-      zoom: 8
-    });
-  }
-</script>   
-        
-<script>
-    $('.carousel').carousel({
-        interval: 5000 //changes the speed
-    })
-    </script>
-</body>
-</html>
+<?php include 'footer.php';?>

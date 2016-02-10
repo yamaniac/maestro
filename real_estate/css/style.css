@@ -5,6 +5,11 @@ body {
 	padding-top:50px;
 	/* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
 }
+
+a {
+    color:#888888;
+}
+
 h1 {
 	background-image:url("../images/logo_real_estate.jpg");
 	background-repeat:no-repeat;
@@ -25,6 +30,35 @@ h1 {
 .menu a {
 	color:#ffffff!important;
 }
+
+.dropdown-menu > li > a {
+    clear: both;
+    color: #fff!important;
+    display: block;
+    font-weight: 400;
+    line-height: 1.42857;
+    padding: 3px 20px;
+    white-space: nowrap;
+}
+
+.dropdown-menu > li > a:hover {
+    background-color:#9D462F!important ;
+}
+.dropdown-menu {
+    background-color: #522c2c!important;
+ 
+}
+
+.nav .open > a, .nav .open > a:focus, .nav .open > a:hover {
+    background-color: #522c2c!important;
+    border-color: #337ab7;
+}
+
+.nav > li > a:focus, .nav > li > a:hover {
+    background-color: #522c2c!important;
+    text-decoration: none;
+}
+
 .header_contact {
 	margin-left:56px;
 	margin-top:14px;
@@ -59,6 +93,29 @@ i.radius {
 	text-align:center;
 	width:500px;
 }
+
+.prpty_hglights{
+    background-color: #000000;
+    margin: 10px;
+    opacity: 0.8;
+    padding: 13px;
+}
+
+.prpty_hglights ul {
+    margin:0px;
+    padding:0px;
+}
+
+
+.prpty_hglights ul li{
+    color: #ffffff;
+    font-size: 17px;
+    line-height: 61px;
+    list-style: outside none none;
+    margin: 3px 0 0;
+    padding: 0;
+}
+
 .top-buffer {
 	margin-top:20px;
 }
@@ -73,11 +130,11 @@ i.radius {
 .testimonials {
 	background-attachment:fixed;
 	background-image:url("../images/test_bg.jpg");
-	height:332px;
+	height:400px;
 	width:100%;
 	background-repeat:repeat;
 	position:relative;
-	background:cover;
+	background-size:cover;
 	text-align:center;
 }
 .testimonials h2 {
@@ -178,13 +235,13 @@ header.carousel .fill {
 	background-size:cover;
 }
 .carousel-indicators .active {
-	background:#31708f;
+	background:#000000 ;
 }
 .content {
 	margin-top:20px;
 }
 .carousel-indicators li {
-	border:1px solid #ccc;
+	border:1px solid #ffffff;
 }
 .carousel-control {
 	color:#ffffff;
@@ -204,6 +261,31 @@ header.carousel .fill {
 	.media-object {
 		margin-top: 0;
 	}
+    
+    .open_timings{
+        display:none;
+    }
+    
+    .navbar-brand{
+        display:none;
+    }
+    
+      .menu {
+    margin-top: -165px;
+  }
+  
+  .navbar {
+    display:none;
+  }
+  
+  .prpty_hglights{
+display:none;
+}
+
+.icon-bar{
+  background-color: #ffffff !important;
+}
+    
 }
 /* 404 Page Styles */
 .error-404 {
