@@ -132,7 +132,7 @@
 		</div>
 	</div>
 	<div class="row top-buffer">
-	 <div class="col-md-4 col-sm-6 data-os-animation="fadeInUp" data-os-animation-delay="0.10s "> 
+	 <div class="col-md-4 col-sm-6 os-animation" data-os-animation="bounceIn" data-os-animation-delay="1s"> 
      <div class="wrapper">
      <div class="project_details ">
      <ul>
@@ -146,7 +146,7 @@
                 "http://placehold.it/700x450"></a>
                    </div>
             </div>
-	 <div class="col-md-4 col-sm-6">
+	 <div class="col-md-4  col-sm-6 os-animation" data-os-animation="bounceIn" data-os-animation-delay="1s">
                 <div class="wrapper">
      <div class="project_details">
      <ul>
@@ -160,7 +160,7 @@
                 "http://placehold.it/700x450"></a>
                    </div>
             </div>
-	 <div class="col-md-4 col-sm-6">
+	 <div class="col-md-4 col-sm-6 os-animation" data-os-animation="bounceIn" data-os-animation-delay="1s">
                <div class="wrapper">
      <div class="project_details">
      <ul>
@@ -174,7 +174,7 @@
                 "http://placehold.it/700x450"></a>
                    </div>
             </div>
-	 <div class="col-md-4 col-sm-6">
+	 <div class="col-md-4 col-sm-6 os-animation" data-os-animation="bounceIn" data-os-animation-delay="1s">
                  <div class="wrapper">
      <div class="project_details">
      <ul>
@@ -188,7 +188,7 @@
                 "http://placehold.it/700x450"></a>
                    </div>
             </div>
-	 <div class="col-md-4 col-sm-6">
+	 <div class="col-md-4 col-sm-6 os-animation" data-os-animation="bounceIn" data-os-animation-delay="1s">
                <div class="wrapper">
      <div class="project_details">
      <ul>
@@ -202,7 +202,7 @@
                 "http://placehold.it/700x450"></a>
                    </div>
             </div>
-	 <div class="col-md-4 col-sm-6">
+	 <div class="col-md-4 col-sm-6 os-animation" data-os-animation="bounceIn" data-os-animation-delay="1s">
                 <div class="wrapper">
      <div class="project_details">
      <ul>
@@ -219,7 +219,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12 center-block-item">
-					<a class="btn btn-danger btn-lg hvr-grow-shadow" href="#">View All Projects</a>
+					<a class="btn btn-danger btn-lg os-animation" data-os-animation="bounceInDown" data-os-animation-delay="1s" href="#">View All Projects</a>
 				</div>
 			</div>
 		</div>
@@ -275,8 +275,8 @@
 								<div class="test_owner">
 									<img src="images/man.jpg" class="testimonialimg img-responsive pull-left" />
 									<p class="testowner">
-										Manish R 
-
+									i>	Manish R </i>
+<br />
 										<small>Owner of apartment</small>
 									</p>
 								</div>
@@ -393,7 +393,19 @@
 </div>
 
 <div class="contact_placeholder">
+<ul>
+<li><i class="fa fa-map-marker"></i> 
+ 2277 Lorem Ave, San Diego, CA 22553 </li>
+<li> <i class="fa fa-clock-o"></i> Monday - Saturday
+from 8:00 to 20:00 <br /> <br />
 
+Free day - Sunday </li><br /> <br />
+<li><i class="fa fa-phone"></i> 
+ 123-459-7890 </li>
+<li><i class="fa fa-envelope"></i> 
+info@maestro.com </li>
+
+</ul>
 </div>
 
 </div>

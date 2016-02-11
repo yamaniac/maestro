@@ -12,9 +12,9 @@
 <div class="container">
 	<div class="row">
 		<div class="col-md-2">
-			<h1 class="page-header">
-			Maestro - Real Estate </h1>
-		</div>
+		<a href="index.php">	<h1 class="page-header">
+			Maestro - Real Estate
+		</div></h1> </a>
 		<div id="adj"class="col-md-5 pull-right ">
 			<div class="header_contact">
 				<ul>
@@ -46,10 +46,10 @@
 					<a href="#" class="dropdown-toggle" data-toggle="dropdown">Projects <b class="caret"></b></a>
 					<ul class="dropdown-menu">
 						<li>
-						<a href="portfolio-1-col.html">Completed Projects</a>
+						<a href="#">Completed Projects</a>
 						</li>
 						<li>
-						<a href="portfolio-2-col.html">Ongoing Projects</a>
+						<a href="#">Ongoing Projects</a>
 						</li>
 					</ul>
 					</li>
