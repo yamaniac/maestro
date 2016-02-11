@@ -11,7 +11,7 @@
 </nav>
 <div class="container">
 	<div class="row">
-		<div class="col-md-2">
+		<div class="col-md-4">
 		<a href="index.php">	<h1 class="page-header">
 			Maestro - Real Estate
 		</div></h1> </a>

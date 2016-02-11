@@ -303,30 +303,31 @@
 		</div>
 	</div>
     <div class="top-buffer"></div>
+    <div class="container">
             <div class="row">
          
                    
                
             <div class="col-md-8 news"> 
             <img class="img-responsive img-hover pull-left" src="http://placehold.it/302x222" alt=""/>
-                <h3>
+               
                     <a href="blog-post.html">Blog Post Title</a>
-                </h3>
+                
             
                 
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
          
             </div>
     
-            <div class="row">
+            <div class="clear"></div>
          
             <div class="col-md-4 news">
-            <a href="blog-post.html">
+           
                     <img class="img-responsive pull-left img-hover" src="http://placehold.it/65x65" alt="">
-                </a>
-                <h3>
+                
+                
                     <a href="blog-post.html">Blog Post Title</a>
-                </h3>
+               
                 
                
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, eu fugiat nulla pariatur.</p>
@@ -337,12 +338,12 @@
             
          
             <div class="col-md-4 news">
-            <a href="blog-post.html">
+           
                     <img class="img-responsive pull-left img-hover" src="http://placehold.it/65x65" alt="">
-                </a>
-                <h3>
+                
+                
                     <a href="blog-post.html">Blog Post Title</a>
-                </h3>
+               
                 
                 
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, eu fugiat nulla pariatur.</p>
@@ -353,18 +354,19 @@
             
                      
             <div class="col-md-4 news">
-            <a href="blog-post.html">
+        
                     <img class="img-responsive pull-left img-hover" src="http://placehold.it/65x65" alt="">
-                </a>
-                <h3>
+                
+                
                     <a href="blog-post.html">Blog Post Title</a>
-                </h3>
+                
                 
                 
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, eu fugiat nulla pariatur.</p>
                 
-            </div>
+           
             
+            </div>
             </div>
             </div>
         </div>
@@ -374,7 +376,7 @@
         
 </div>
 <div  class="top-buffer"></div>
-<div class="container">
+<div class="container maps">
 	<div class="row">
 		<div class="col-md-12 descp">
 			<h2 class=" center-block descp sc_title">
@@ -388,7 +390,7 @@
 
 <div class="top-buffer">
 </div>
-<div class="wrapper">
+<div class="wrapper maps">
 <div id="map">
 </div>
 

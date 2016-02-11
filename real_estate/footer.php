@@ -46,7 +46,7 @@ Copyrights 2016 - Maestrorealestate.com. All Rights Reserved.
       zoom: 8
     });
   }
-</script>    -->
+</script>   
         
 <script>
     $('.carousel').carousel({

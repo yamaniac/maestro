@@ -366,34 +366,45 @@ display:none;
 }
     
 }
-/* 404 Page Styles */
-.error-404 {
-	font-size: 100px;
-}
-/* Pricing Page Styles */
-.price {
-	display:block;
-	font-size:50px;
-	line-height:50px;
-}
-.price sup {
-	top:-20px;
-	left:2px;
-	font-size:20px;
-}
-.period {
-	display:block;
-	font-style: italic;
-}
-/* Footer Styles */
+
 footer {
 	margin: 50px 0;
 }
 /* Responsive Styles */
+
+
+@media(max-width:1198px) {
+	.customer-img,.img-related {
+		margin-bottom:30px;
+	}
+     
+    .header_contact li {
+    float: left;
+    padding-right: 8px;
+}
+}
+
 @media(max-width:991px) {
 	.customer-img,.img-related {
 		margin-bottom:30px;
 	}
+    
+    .prpty_hglights{
+        display:none;
+    }
+    
+    .news img{
+        display:none;
+    }
+    
+    .maps{
+        display:none;
+    }
+    
+    .header_contact li {
+    float: left;
+    padding-right: 8px;
+}
 }
 @media(max-width:767px) {
 	.img-portfolio {
@@ -402,4 +413,32 @@ footer {
 	header.carousel .carousel {
 		height: 70%;
 	}
+    
+   .page-header{
+    background-image:none!important;
+    text-indent:0px;
+    font-size:28px;
+   } 
+   
+   #map{
+    display:none;
+   }
+   
+   .contact_placeholder{
+    display:none;
+   } 
+   
+   h1{
+    height:44px;
+   }
+   
+   .maps{
+        display:none;
+    }
+ body {
+	padding-top:0px!important;
+
+
+}
+    
 }
